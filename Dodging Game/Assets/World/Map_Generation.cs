@@ -6,7 +6,6 @@ public class Map_Generation : MonoBehaviour
 {
     public GameObject worldChunk;
     public GameObject worldChunkEnd;
-    public GameObject playerSpawn;
 
     private void Start()
     {
@@ -17,7 +16,6 @@ public class Map_Generation : MonoBehaviour
     {
         GenerateChunks(GetWorldSize());
         //Generate Wave Controllers
-        GenerateSpawnPoints();
         //Spawn Player
     }
 
@@ -42,12 +40,5 @@ public class Map_Generation : MonoBehaviour
             chunkTemp.name = "World Chunk";
             chunkTemp.transform.position = new Vector3(0, 0, i * 10);
         }
-    }
-
-    private void GenerateSpawnPoints()
-    {
-        GameObject spawnTemp = Instantiate(playerSpawn, gameObject.transform);
-        spawnTemp.name = "Player Spawn Point";
-        spawnTemp.transform.position = Vector3.zero;
     }
 }

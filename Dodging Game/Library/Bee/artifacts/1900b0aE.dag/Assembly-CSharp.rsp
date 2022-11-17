@@ -344,7 +344,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Actors/PlayerController.cs"
+"Assets/Actors/Camera/CameraController.cs"
+"Assets/Actors/Player/PlayerController.cs"
+"Assets/Actors/Projectiles/Beam.cs"
+"Assets/Actors/Projectiles/BeamSP.cs"
 "Assets/World/Map_Generation.cs"
 "Assets/World/Spawn Points/PlayerSP.cs"
 -langversion:9.0

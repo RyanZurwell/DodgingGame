@@ -21,7 +21,7 @@ public class Map_Generation : MonoBehaviour
 
     private int GetWorldSize()
     {
-        return 5;
+        return 25;
     }
 
     private void GenerateChunks(int worldSize)
